@@ -18,7 +18,7 @@ prevBtn.addEventListener("click", (e)=>{ // предыдущийСлайдКно
     e.preventDefault(); // обнуляем(0) все стандартные обработчики событий (iventzz)
     changeSlide(); // вызываем смену слайда
 });
-nextBtn.addEventListener("click", (e)=>{ // все то же самое (мы захардкодили нам тупа пох)
+nextBtn.addEventListener("click", (e)=>{ // все то же самое 
     e.preventDefault();
     changeSlide();
 });
