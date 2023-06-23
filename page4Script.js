@@ -1,4 +1,4 @@
-const seals = document.querySelectorAll('.page3Seal > div'); // создаем константу с div`ами акул(в древе чекнешь)
+const seals = document.querySelectorAll('.page3Seal > div'); // создаем константу с div`ами 
 
 seals.forEach(seal => { //для каждого дива
     let info = seal.querySelector(".infoSeal"); //создать переменную с блоком информации
@@ -7,13 +7,13 @@ seals.forEach(seal => { //для каждого дива
 
     seal.addEventListener("mouseover", (e)=>{ // при наведении
         e.preventDefault(); // обнуляем стандартные обработчики
-        info.style.opacity = "1"; // блок с инфой становится непрозрачным
-        seal.style.scale = "1.2" // увеличиваем весь блок, соответственно блок с инфой становится тоже больше
+        info.style.opacity = "1";
+        seal.style.scale = "1.2" 
 
     });
     seal.addEventListener("mouseout", (e)=>{ // при отведении курсора
         e.preventDefault(); // обнуляем стандартные обработчики
-        info.style.opacity = "0"; // инфа прозрачная
-        seal.style.scale = "1" // дефолт размеры
+        info.style.opacity = "0"; 
+        seal.style.scale = "1" 
     })
 });
