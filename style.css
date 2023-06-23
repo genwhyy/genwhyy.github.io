@@ -13,7 +13,8 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: rgb(141, 204, 255);
+    background: rgb(78,147,255);
+    background: radial-gradient(circle, rgba(78,147,255,1) 0%, rgba(178,208,255,1) 100%);
     overflow-x: hidden;
 }
 
